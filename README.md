@@ -3,6 +3,8 @@ Just an easy extension to always fly for waffle air so you don't forget and boss
 
 Made by Babymillie👶🍼🚼#0001 on discord
 
+[Example](https://gyazo.com/0f18b6eb9fb8d54102d8b08608ef8461)
+
 # To install:
 
 Download the master.zip (https://github.com/Alexandrea/FlyForWafflyAir/archive/master.zip)
