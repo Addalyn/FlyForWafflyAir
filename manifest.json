@@ -1,0 +1,13 @@
+{
+  "name": "FlyForWafflyAir!",
+  "version": "1.0",
+  "description": "You better fly for waffleair",
+  "content_scripts": [
+  {
+    "matches": [
+      "https://server.fseconomy.net/myflight.jsp"
+    ],
+    "js": ["jquery-2.2.4.min.js","content.js"]
+  }],
+  "manifest_version": 2
+}
