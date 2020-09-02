@@ -3,9 +3,12 @@
    But fly for waffleair
 */
 
-var findFlyForGroup = $("a[href^='javascript:doSubmit4(72560)']").eq(0);
-
-if (findFlyForGroup) {
-	$('form[name="groupForm"').eq(0).find('input[name="id"]').val(72560);
-	$('form[name="groupForm"').eq(0).submit();
-}
+chrome.storage.sync.get(['FlyForWaffleAir'], function(result) {
+	console.log(result.FlyForWaffleAir);
+	var findFlyForGroup = $("a[href^='javascript:doSubmit4(72560)']").eq(0);
+	if (findFlyForGroup && (result.FlyForWaffleAir==="false"||result.FlyForWaffleAir===undefined)) {
+		var form = $('form[name="groupForm"]').eq(0);
+		form.find('input[name="id"]').val(72560);
+		form.submit();
+	}
+});

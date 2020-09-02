@@ -1,6 +1,6 @@
 {
   "name": "FlyForWafflyAir!",
-  "version": "1.0",
+  "version": "1.1",
   "description": "You better fly for waffleair",
   "content_scripts": [
   {
@@ -9,5 +9,16 @@
     ],
     "js": ["jquery-2.2.4.min.js","content.js"]
   }],
+  "browser_action": {
+    "default_icon": "waffleair.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "waffleair.png"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
   "manifest_version": 2
 }
