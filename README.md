@@ -7,6 +7,8 @@ Made by Babymillie👶🍼🚼#0001 on discord
 
 # To install:
 
+Now on google chrome store https://chrome.google.com/webstore/detail/flyforwafflyair/iihlogdglbbpbahbkcgebjpalnmmgggg
+
 Download the master.zip (https://github.com/Alexandrea/FlyForWafflyAir/archive/master.zip)
 
 Unpack at a destination of your choosing
