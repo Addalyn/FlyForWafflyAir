@@ -4,7 +4,6 @@
 */
 
 chrome.storage.sync.get(['FlyForWaffleAir'], function(result) {
-	console.log(result.FlyForWaffleAir);
 	var findFlyForGroup = $("a[href^='javascript:doSubmit4(72560)']").eq(0);
 	if (findFlyForGroup && (result.FlyForWaffleAir==="false"||result.FlyForWaffleAir===undefined)) {
 		var form = $('form[name="groupForm"]').eq(0);
